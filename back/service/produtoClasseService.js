@@ -90,13 +90,13 @@ const updateProdutoClasse = (value) => {
 }
 
 
-const deleteProdutoClasse = (descricao) => {
-    const index = produtoClasses.findIndex(produtoClasse => produtoClasse.descricao === descricao);
+const deleteProdutoClasse = (id) => {
+    const index = produtoClasses.findIndex(produtoClasse => produtoClasse.id === id);
 
     if (index !== -1){
         produtoClasses.splice(index, 1); // remove o produto Classe da lista
         saveProdutoClassesToFile()
-        console.log("produto Classe Deletado: ", descricao);
+        console.log("produto Classe Deletado: ", id);
         return true;
     } else {
         return false;

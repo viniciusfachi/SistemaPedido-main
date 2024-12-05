@@ -89,7 +89,7 @@ async function excluirRegistroProdutoClasse(linha){
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({descricao: linha.children[0].textContent}),
+            body: JSON.stringify({id: linha.children[0].textContent}),
         });
         if (response.status === 200){
             linha.remove();
@@ -162,12 +162,6 @@ async function getProdutoClasses(){
             option.classList.add("selectedContas");
             selectContas.appendChild(option);
             option.value.selected = "item";
-
-            // for (td of tdProdutoClasse) {
-            //     td[0].innerHTML = conta.id;
-            //     td[1].innerHTML = conta.descricao;
-            //     td[2].innerHTML = conta.acao;
-            // }
         });
 
     } else {
