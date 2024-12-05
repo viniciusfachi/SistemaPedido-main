@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "contaInst": "Banco do Brasil",
+    "contaTipo": "Corrente",
+    "descricao": "asdg",
+    "cpf": 1234,
+    "nome": "Mário"
+  },
+  {
+    "id": 2,
+    "contaInst": "Banco do Brasil",
+    "contaTipo": "Corrente",
+    "descricao": "mmmmmm",
+    "cpf": 1111111,
+    "nome": "Vincius"
+  },
+  {
+    "id": 3,
+    "contaInst": "Caixa Economica",
+    "contaTipo": "Corrente",
+    "descricao": "mesada",
+    "cpf": 999999999999999,
+    "nome": "vini"
+  },
+  {
+    "id": 4,
+    "contaInst": "Itau",
+    "contaTipo": "Corrente",
+    "descricao": "ff",
+    "cpf": 6666666666,
+    "nome": "na"
+  },
+  {
+    "id": 5,
+    "contaInst": "Santander",
+    "contaTipo": "Corrente",
+    "descricao": "frf",
+    "cpf": 9999999999999,
+    "nome": "hh"
+  }
+]
